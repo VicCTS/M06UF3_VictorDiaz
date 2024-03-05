@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,7 +124,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -143,9 +143,9 @@ TextureImporter:
       name: Hierbas_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
-        width: 66
+        width: 64
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,9 +164,9 @@ TextureImporter:
       name: Hierbas_2
       rect:
         serializedVersion: 2
-        x: 99
+        x: 100
         y: 0
-        width: 49
+        width: 48
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,14 +184,17 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 28dc184f4ad399f43b9274c3e739ef2d
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hierbas_0: 2637960408317240862
+      Hierbas_1: 5839665991867518605
+      Hierbas_2: -260627620106043794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
