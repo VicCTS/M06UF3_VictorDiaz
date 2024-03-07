@@ -206,174 +206,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ladrillos_10
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 39
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 743cbc33c36854ab0800000000000000
-      internalID: -5024462216136768697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ladrillos_11
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 39
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11b7ce958de1d1a20800000000000000
-      internalID: 3034615638488021777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ladrillos_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 18
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6b790b1543b64ba0800000000000000
-      internalID: -6104995135466407060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ladrillos_13
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 18
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d30792c5d7aa3460800000000000000
-      internalID: 7222269488976561104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ladrillos_14
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 18
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 266e33eb6f24b1200800000000000000
-      internalID: 151788639967503970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ladrillos_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f024e887db229d150800000000000000
-      internalID: 5897783384185127439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ladrillos_16
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c9dfa59e7405fdd0800000000000000
-      internalID: -2453049480309646910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ladrillos_17
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50ed8cc4da30c5180800000000000000
-      internalID: -9125414702107009531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Ladrillos_2
       rect:
         serializedVersion: 2
@@ -388,8 +220,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccf01cf2fdeaa3150800000000000000
-      internalID: 5853182939323502540
+      spriteID: 743cbc33c36854ab0800000000000000
+      internalID: -5024462216136768697
       vertices: []
       indices: 
       edges: []
@@ -409,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 093e9f47009046c60800000000000000
-      internalID: 7810377551334466448
+      spriteID: 11b7ce958de1d1a20800000000000000
+      internalID: 3034615638488021777
       vertices: []
       indices: 
       edges: []
@@ -430,8 +262,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92ff8166f77346b60800000000000000
-      internalID: 7738371080042643241
+      spriteID: c6b790b1543b64ba0800000000000000
+      internalID: -6104995135466407060
       vertices: []
       indices: 
       edges: []
@@ -451,8 +283,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87716631c4e06b930800000000000000
-      internalID: 4158527025828992888
+      spriteID: 0d30792c5d7aa3460800000000000000
+      internalID: 7222269488976561104
       vertices: []
       indices: 
       edges: []
@@ -472,8 +304,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b225062088a322370800000000000000
-      internalID: 8296257819399705131
+      spriteID: 266e33eb6f24b1200800000000000000
+      internalID: 151788639967503970
       vertices: []
       indices: 
       edges: []
@@ -493,8 +325,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4392217795c0fc30800000000000000
-      internalID: 4391226890915058509
+      spriteID: f024e887db229d150800000000000000
+      internalID: 5897783384185127439
       vertices: []
       indices: 
       edges: []
@@ -514,8 +346,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01746ed5098637670800000000000000
-      internalID: 8535280688057173776
+      spriteID: 2c9dfa59e7405fdd0800000000000000
+      internalID: -2453049480309646910
       vertices: []
       indices: 
       edges: []
@@ -535,6 +367,174 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+      spriteID: 50ed8cc4da30c5180800000000000000
+      internalID: -9125414702107009531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf01cf2fdeaa3150800000000000000
+      internalID: 5853182939323502540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093e9f47009046c60800000000000000
+      internalID: 7810377551334466448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ff8166f77346b60800000000000000
+      internalID: 7738371080042643241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87716631c4e06b930800000000000000
+      internalID: 4158527025828992888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b225062088a322370800000000000000
+      internalID: 8296257819399705131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4392217795c0fc30800000000000000
+      internalID: 4391226890915058509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01746ed5098637670800000000000000
+      internalID: 8535280688057173776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
       spriteID: c3e088875c5d1bbd0800000000000000
       internalID: -2616074864418091460
       vertices: []
@@ -544,7 +544,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8c55a644414858146a0335f97baf986b
+    spriteID: 8360d3d36010606459e3935eced93216
     internalID: 0
     vertices: []
     indices: 
@@ -554,22 +554,22 @@ TextureImporter:
     nameFileIdTable:
       Ladrillos_0: 1069114306616811980
       Ladrillos_1: 910114455661002493
-      Ladrillos_10: -5024462216136768697
-      Ladrillos_11: 3034615638488021777
-      Ladrillos_12: -6104995135466407060
-      Ladrillos_13: 7222269488976561104
-      Ladrillos_14: 151788639967503970
-      Ladrillos_15: 5897783384185127439
-      Ladrillos_16: -2453049480309646910
-      Ladrillos_17: -9125414702107009531
-      Ladrillos_2: 5853182939323502540
-      Ladrillos_3: 7810377551334466448
-      Ladrillos_4: 7738371080042643241
-      Ladrillos_5: 4158527025828992888
-      Ladrillos_6: 8296257819399705131
-      Ladrillos_7: 4391226890915058509
-      Ladrillos_8: 8535280688057173776
-      Ladrillos_9: -2616074864418091460
+      Ladrillos_10: 5853182939323502540
+      Ladrillos_11: 7810377551334466448
+      Ladrillos_12: 7738371080042643241
+      Ladrillos_13: 4158527025828992888
+      Ladrillos_14: 8296257819399705131
+      Ladrillos_15: 4391226890915058509
+      Ladrillos_16: 8535280688057173776
+      Ladrillos_17: -2616074864418091460
+      Ladrillos_2: -5024462216136768697
+      Ladrillos_3: 3034615638488021777
+      Ladrillos_4: -6104995135466407060
+      Ladrillos_5: 7222269488976561104
+      Ladrillos_6: 151788639967503970
+      Ladrillos_7: 5897783384185127439
+      Ladrillos_8: -2453049480309646910
+      Ladrillos_9: -9125414702107009531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
