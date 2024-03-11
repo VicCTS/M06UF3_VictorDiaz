@@ -7718,6 +7718,7 @@ GameObject:
   - component: {fileID: 890044755}
   - component: {fileID: 890044757}
   - component: {fileID: 890044758}
+  - component: {fileID: 890044759}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -7867,6 +7868,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8125, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &890044759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890044754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc5ba73ac7a89c4eba48f302b8cab43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Mario
+  height: 1.8
+  age: 40
+  greeting: Hola
+  firstNumber: 0
+  secondNumber: -3
+  result: 0
+  firstString: Texto 1
+  secondString: Texto 2
+  resultString: 
 --- !u!1 &904526250
 GameObject:
   m_ObjectHideFlags: 0
