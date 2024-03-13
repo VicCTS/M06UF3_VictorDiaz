@@ -7719,6 +7719,7 @@ GameObject:
   - component: {fileID: 890044757}
   - component: {fileID: 890044758}
   - component: {fileID: 890044759}
+  - component: {fileID: 890044760}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -7789,7 +7790,7 @@ Transform:
   m_GameObject: {fileID: 890044754}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -100.58, y: -1.2, z: 0}
+  m_LocalPosition: {x: -110.37, y: -4.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7810,7 +7811,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7877,19 +7878,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 890044754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbc5ba73ac7a89c4eba48f302b8cab43, type: 3}
+  m_Script: {fileID: 11500000, guid: 3788948164af96d41a1e7adf198515e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Mario
-  height: 1.8
-  age: 40
-  greeting: Hola
-  firstNumber: 0
-  secondNumber: -3
-  result: 0
-  firstString: Texto 1
-  secondString: Texto 2
-  resultString: 
+  movementSpeed: 5
+  jumpForce: 15
+--- !u!95 &890044760
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890044754}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 21fbde5b535316a429ac9f1a784f5bad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &904526250
 GameObject:
   m_ObjectHideFlags: 0
