@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rigidbody2d;
     private Animator animator;
+    private GroundSensor groundSensor;
     
     private float horizontalInput;
 
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        groundSensor = GetComponentInChildren<GroundSensor>();
 
         //transform.position = new Vector3 (-50, 0, 0);
     }
@@ -35,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        //rigidbody2d.velocity = new Vector2(1 * movementSpeed, rigidbody2d.velocity.y);
+        rigidbody2d.velocity = new Vector2(horizontalInput * movementSpeed, rigidbody2d.velocity.y);
         //rigidbody2d.AddForce(Vector2.right * 10);
         //rigidbody2d.MovePosition(new Vector2(-90, -4.9f));
         //rigidbody2d.MovePosition(rigidbody2d.position + new Vector2(1, 0) * movementSpeed);
@@ -43,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
-        transform.position = new Vector3 (transform.position.x + horizontalInput * Time.deltaTime * movementSpeed, transform.position.y, transform.position.z);
+        //transform.position = new Vector3 (transform.position.x + horizontalInput * Time.deltaTime * movementSpeed, transform.position.y, transform.position.z);
         //transform.Translate(new Vector3(horizontalInput, 0) * Time.deltaTime * movementSpeed);
         //transform.position = Vector3.MoveTowards(transform.position, new Vector3(-90, -4.9f, 0), movementSpeed * Time.deltaTime);
 
@@ -65,10 +67,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && groundSensor.isGrounded)
         {
             rigidbody2d.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            animator.SetBool("IsJumping", true);
         }
+
+        animator.SetBool("IsJumping", !groundSensor.isGrounded);
     }
 }
