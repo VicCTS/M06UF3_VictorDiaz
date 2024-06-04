@@ -27,6 +27,7 @@ public class GroundSensor : MonoBehaviour
 
         if(collider.gameObject.layer == 7)
         {
+            /*
             Animator enemyAnimator = collider.gameObject.GetComponent<Enemy>().animator;
             BoxCollider2D enemyCollider = collider.gameObject.GetComponent<Enemy>().boxCollider2D;
 
@@ -34,6 +35,11 @@ public class GroundSensor : MonoBehaviour
             enemyCollider.enabled = false;
 
             Destroy(collider.gameObject, 1f);
+            */
+
+            Enemy enemy = collider.gameObject.GetComponent<Enemy>();
+
+            enemy.Death();
         }
     }
 

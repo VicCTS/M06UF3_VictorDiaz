@@ -20,13 +20,17 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 desiredPosition = playerTransform.position + offset;
+        if(playerTransform != null)
+        {
+            Vector3 desiredPosition = playerTransform.position + offset;
 
-        float clampX = Mathf.Clamp(desiredPosition.x, minCameraPosition.x, maxCameraPosition.x);
-        float clampY = Mathf.Clamp(desiredPosition.y, minCameraPosition.y, maxCameraPosition.y);
+            float clampX = Mathf.Clamp(desiredPosition.x, minCameraPosition.x, maxCameraPosition.x);
+            float clampY = Mathf.Clamp(desiredPosition.y, minCameraPosition.y, maxCameraPosition.y);
 
-        Vector3 clampedPosition = new Vector3(clampX, clampY, desiredPosition.z);
+            Vector3 clampedPosition = new Vector3(clampX, clampY, desiredPosition.z);
 
-        transform.position = clampedPosition;
+            transform.position = clampedPosition;
+        }
+        
     }
 }

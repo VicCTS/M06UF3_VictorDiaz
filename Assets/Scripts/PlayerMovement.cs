@@ -6,13 +6,26 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rigidbody2d;
-    private Animator animator;
+    public Animator animator;
+    public BoxCollider2D boxCollider2D;
+    public BoxCollider2D sensorCollider;
+
     private GroundSensor groundSensor;
+    private SFXManager sFXManager;
+    private BGMManager bGMManager;
+    private SceneLoader sceneLoader;
     
     private float horizontalInput;
 
     public float movementSpeed = 5;
     public float jumpForce = 15;
+
+    public AudioClip jumpSFX;
+    public AudioClip deathSFX;
+    public AudioClip shootSFX;
+
+    public Transform bulletSpawn;
+    public GameObject bulletPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         groundSensor = GetComponentInChildren<GroundSensor>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
+        sFXManager = GameObject.Find("SFX Manager").GetComponent<SFXManager>();
+        bGMManager = GameObject.Find("BGM Manager").GetComponent<BGMManager>();
+        sceneLoader = GameObject.Find("Scene Loader").GetComponent<SceneLoader>();
 
         //transform.position = new Vector3 (-50, 0, 0);
     }
@@ -32,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
         Movement();
 
         Jump();
+
+        Shoot();
     }
 
 
@@ -70,8 +89,38 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetButtonDown("Jump") && groundSensor.isGrounded)
         {
             rigidbody2d.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            sFXManager.PlaySFX(jumpSFX);
         }
 
         animator.SetBool("IsJumping", !groundSensor.isGrounded);
+    }
+
+    public void Death()
+    {
+        boxCollider2D.enabled = false;
+        sensorCollider.enabled = false;
+        animator.SetTrigger("IsDead");
+
+        bGMManager.StopBGM();
+        sFXManager.PlaySFX(deathSFX);
+
+        Destroy(gameObject, 1f);
+    }
+
+    void Shoot()
+    {
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+            sFXManager.PlaySFX(shootSFX);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collider.gameObject.tag == "Finish Line")
+        {
+            sceneLoader.LoadNextLevel();
+        }
     }
 }
